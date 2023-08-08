@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1026634301421",
+    "project_id": "tms-satti",
+    "storage_bucket": "tms-satti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026634301421:android:1dd281f6fcdc87982db1e4",
+        "android_client_info": {
+          "package_name": "com.satti.tms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026634301421-vauj4bia9pn65hput8nvdk09f4oalqut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBllK4wt37hDFM1PoVpAiFApkizhbrG1hA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026634301421-vauj4bia9pn65hput8nvdk09f4oalqut.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1026634301421-vlt4fnhkikjtm141lt8cg089u6em050v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.satti.tms"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

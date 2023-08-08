@@ -1,0 +1,119 @@
+name: europharm_flutter
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+3
+
+environment:
+  sdk: ">=2.18.0"
+  flutter: ">=3.3.0"
+
+dependencies:
+  another_flushbar: ^1.12.30
+  another_xlider: ^3.0.1
+  cached_network_image: ^3.2.3
+  # camera: ^0.9.8+1
+  # change_app_package_name: ^1.1.0
+#  code_field: ^1.22.0
+  # convex_bottom_bar: ^3.0.0
+  country_code_picker: ^3.0.0
+  cupertino_icons: ^1.0.5
+  # device_info: ^2.0.3
+  # device_info_plus: ^3.2.2
+  # device_preview: ^1.0.0
+  dio: ^4.0.6
+  dotted_line: ^3.2.2
+  firebase_analytics: ^10.4.4
+  firebase_core: ^2.15.0
+  firebase_crashlytics: ^3.0.15
+  firebase_dynamic_links: ^5.0.15
+  firebase_messaging: ^14.2.5
+  flutter:
+    sdk: flutter
+  flutter_barcode_scanner: ^2.0.0
+  flutter_bloc: ^8.1.1
+  flutter_local_notifications: ^12.0.0
+  fluttertoast: ^8.0.9
+  flutter_localizations:
+    sdk: flutter
+  # flutter_masked_text: 0.8.0
+  flutter_multi_formatter: ^2.8.0
+  # flutter_secure_storage: ^5.0.2
+  flutter_svg: ^1.1.5
+  freezed_annotation: 
+  get_it: ^7.2.0
+  geolocator: ^9.0.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  image_picker: ^0.8.5+3
+  intl: ^0.18.1
+  json_annotation: ^4.7.0
+  json_serializable: ^6.4.1
+  liquid_pull_to_refresh: ^3.0.1
+  loader_overlay: ^2.1.0
+  logger: ^1.1.0
+  mask_text_input_formatter: ^2.4.0
+  meta: ^1.7.0
+  mobile_scanner: ^2.0.0
+  path_provider: ^2.0.11
+  pin_code_fields: ^7.3.0
+  provider: ^6.0.3
+  # pull_to_refresh: ^2.0.0
+  # qr_code_scanner: ^1.0.0
+  qr_flutter: ^4.0.0
+  shared_preferences: ^2.0.15
+  syncfusion_flutter_calendar: ^20.3.48
+  syncfusion_flutter_datepicker: ^20.3.48
+  syncfusion_localizations: ^20.3.48
+  table_calendar: ^3.0.7
+  url_launcher: ^6.1.10
+  # video_player: ^2.3.0
+  yandex_mapkit: ^3.0.3
+  simple_gesture_detector: ^0.2.0
+
+dev_dependencies:
+  build_runner: ^2.2.1
+  flutter_launcher_icons: ^0.10.0
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.1.1
+  lint: ^1.10.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/png/app_icon.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/png/app_icon_foreground.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/svg/
+    - assets/images/png/
+
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: fonts/Gilroy-Bold.ttf
+          weight: 700
+        - asset: fonts/Gilroy-Semibold.ttf
+          weight: 600
+        - asset: fonts/Gilroy-Medium.ttf
+          weight: 500
+        - asset: fonts/Gilroy-Regular.ttf
+          weight: 300
+    - family: ProductSans
+      fonts:
+        - asset: fonts/ProductSans-Bold.ttf
+          weight: 700
+        - asset: fonts/ProductSans-Medium.ttf
+          weight: 500
+        - asset: fonts/ProductSans-Regular.ttf
+          weight: 300
+flutter_intl:
+  enabled: true
